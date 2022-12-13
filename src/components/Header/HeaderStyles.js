@@ -17,6 +17,15 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span`
+    font-size: 2rem;
+    transition: 0.3s ease;
+    &:hover {
+        -webkit-transform: scale(1.1) translate(10%, 0%);
+  }
+`
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -108,7 +117,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 `;
 
 
-// Social Icons 
+// Social Icons
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
